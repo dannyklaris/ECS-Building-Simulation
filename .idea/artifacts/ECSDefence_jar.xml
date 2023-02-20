@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ECSDefence:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ECSDefence_jar</output-path>
+    <root id="archive" name="Coursework.jar">
+      <element id="module-output" name="Coursework" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Coursework/src/junit-platform-console-standalone-1.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Coursework/out/production/Coursework/junit-platform-console-standalone-1.8.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

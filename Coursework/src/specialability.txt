@@ -1,0 +1,32 @@
+Bugs
+
+npBug: 
+hp: 10
+steps: 2
+special: chance to skip 1 floor
+
+cmBug: 
+hp: 20
+steps: 4
+special: speeding
+
+ntBug: 
+hp: 200
+steps: 6
+special: healing
+
+aBug: 
+hp: 300
+steps: 8 
+special: double damage
+
+iBug:
+hp: 400
+steps: 10
+special: have the chance to gain complete HP.
+
+itBug: 
+hp: 1000
+steps: 12
+special: healing by 100 HP + 50 chance probability to deal additional damage 25% to construction points
+
