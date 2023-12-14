@@ -82,15 +82,14 @@ java EcsBuildingDefence (set the top floor) (set the construction points) extens
 ## Bugs to fix
 - After running `mvn test`, 6 test cases were not passed.
 ```
-[INFO] Results:
-[INFO]
 [ERROR] Failures: 
 [ERROR]   TestPart2$TestBuildingSpecification.testBuilding_bugsMove:364->lambda$testBuilding_bugsMove$4:425 Move 2: The first bug should be NullPointerBug ==> expected: <Bug: NullPointerBug || Level: 3 || HP: 52> but was: <Bug: ConcurrentModificationBug || Level: 1 || HP: 20>
 [ERROR]   TestPart2$TestBuildingSpecification.testBuilding_getAllBugs:130->lambda$testBuilding_getAllBugs$1:208 : There should be no bugs ==> expected: <3> but was: <2>
-[ERROR]   TestPart3$TestAiStudentSpecification.testAiStudent_defense:148->lambda$testAiStudent_defense$1:208 expected: <200> but was: <300>
-[ERROR]   TestPart3$TestCsStudentSpecification.testCsStudent_defense:468->lambda$testCsStudent_defense$1:528 expected: <200> but was: <300>
-[ERROR]   TestPart3$TestCyberStudentSpecification.testCyberStudent_defense:743->lambda$testCyberStudent_defense$1:806 expected: <200> but was: <300>
-[ERROR]   TestPart3$TestSeStudentSpecification.testSeStudent_defense:1065->lambda$testSeStudent_defense$1:1135 expected: <200> but was: <300>
+[ERROR]   TestPart2$TestBuildingSpecification.testBuilding_removeBug:275->lambda$testBuilding_removeBug$3:318 : There should be 3 bugs ==> expected: <3> but was: <2>
+[ERROR]   TestPart3$TestAiStudentSpecification.testAiStudent_defense:148->lambda$testAiStudent_defense$1:206 expected: <45> but was: <52>
+[ERROR]   TestPart3$TestCsStudentSpecification.testCsStudent_defense:468->lambda$testCsStudent_defense$1:526 expected: <38> but was: <52>
+[ERROR]   TestPart3$TestCyberStudentSpecification.testCyberStudent_defense:743->lambda$testCyberStudent_defense$1:801 expected: <26> but was: <52>
+[ERROR]   TestPart3$TestSeStudentSpecification.testSeStudent_defense:1065->lambda$testSeStudent_defense$1:1146 The 2nd bug should be ConcurrentModificationBug1 ==> expected: <Bug: ConcurrentModificationBug1 || Level: 2 || HP: 57> but was: <Bug: ConcurrentModificationBug2 || Level: 1 || HP: 20>
 [INFO]
-[ERROR] Tests run: 33, Failures: 6, Errors: 0, Skipped: 0
+[ERROR] Tests run: 33, Failures: 7, Errors: 0, Skipped: 0
 ```
