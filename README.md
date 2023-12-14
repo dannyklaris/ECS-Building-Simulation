@@ -79,7 +79,7 @@ To run the program with the extension, please use the following command.
 ```
 java EcsBuildingDefence (set the top floor) (set the construction points) extension.txt
 ```
-## Bugs to fixed
+## Bugs to fix
 - After running `mvn test`, 6 test cases were not passed.
 ```
 [INFO] Results:
