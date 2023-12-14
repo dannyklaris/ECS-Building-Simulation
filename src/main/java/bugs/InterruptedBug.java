@@ -2,8 +2,6 @@ package bugs;
 
 import students.Toolbox;
 
-import java.util.Random;
-
 // InterruptedBug's special ability is have the chance to gain complete HP again. This can be seen under move() method.
 
 public class InterruptedBug extends Bug {
