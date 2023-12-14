@@ -4,22 +4,17 @@
     
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ecsbuildingdefence</groupId>
-    <artifactId>ECS-Building-Defence-Simulation</artifactId>
+    <groupId>com.yourdomain</groupId>
+    <artifactId>ECS-Building-Defence</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
-
     <dependencies>
-        <!-- Your dependencies go here -->
         <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>5.8.1</version>
-        <scope>test</scope>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.1</version>
+            <scope>test</scope>
         </dependency>
-    </dependencies>
+</dependencies>
+
 </project>
